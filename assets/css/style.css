@@ -73,7 +73,8 @@ h6,
 }
 
 .btn__primary,
-.btn__success {
+.btn__success,
+.btn___ {
     display: inline-block;
     padding: 5px 20px;
     border-radius: 6px;
@@ -101,6 +102,10 @@ h6,
 
 .fs-12 {
     font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
 }
 
 .fs-14 {
@@ -146,9 +151,11 @@ h6,
 .fs-32 {
     font-size: 32px !important;
 }
+
 .fs-34 {
     font-size: 34px !important;
 }
+
 .fs-36 {
     font-size: 36px !important;
 }
@@ -159,6 +166,22 @@ h6,
 
 .fw-600 {
     font-weight: 600 !important;
+}
+
+.max__300{
+    max-width: 300px;
+}
+
+.learn___more{
+    color: var(--heading--color);
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.heading__color {
+    color: var(--heading--color);
 }
 
 .hero__heading,
@@ -220,6 +243,7 @@ h6,
 .gap__12 {
     gap: 12px;
 }
+
 .gap__20 {
     gap: 20px;
 }
@@ -301,6 +325,36 @@ a {
 /* login__page */
 
 /* register page */
+.otp__box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.otp__box input {
+    width: 55px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    text-align: center;
+    font-weight: normal;
+    border: 1px solid #a7a7a7;
+    border-radius: 4px;
+}
+
+.otp__box input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.resend__otp {
+    all: unset;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
 .register__logo {
     max-width: 50px;
 }
@@ -488,9 +542,10 @@ a {
 /* plans table */
 
 /* BLOG DETAIL */
-.blog_title{
+.blog_title {
     font-family: var(--font-blog-title);
 }
+
 /* BLOG DETAIL */
 
 /* footer */
