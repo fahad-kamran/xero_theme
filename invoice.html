@@ -1,0 +1,443 @@
+<!-- 
+    *********************
+    Date : 21-Mar-2025
+    Html  v5
+    Css v3
+    Bootstrap  v5.3
+    jQuery v3.7.0
+    Font Awesome Free 6.5.1
+    *********************
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <!-- <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon"> -->
+    <title>XERO :: INVOICE</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- global css / custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header sticky-top">
+        <nav class="navbar navbar-expand-lg py-3 shadow bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/logo.png" alt="Logo" class="rounded-circle header__logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Small business Features
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">dropdown item 1</a></li>
+                                <li><a class="dropdown-item" href="#">dropdown item 1</a></li>
+                                <li><a class="dropdown-item" href="#">dropdown item 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                For accountants & bookkeepers
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">dropdown item 1</a></li>
+                                <li><a class="dropdown-item" href="#">dropdown item 1</a></li>
+                                <li><a class="dropdown-item" href="#">dropdown item 1</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Support
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">dropdown item 1</a></li>
+                                <li><a class="dropdown-item" href="#">dropdown item 1</a></li>
+                                <li><a class="dropdown-item" href="#">dropdown item 1</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn__outlined__primary">Sign in</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero__section py-5">
+        <div class="container-fluid pt-5">
+            <div class="text-center mb-5">
+                <h1 class="hero__heading__heading mb-3 mb-md-4">Online invoicing software for small businesses</h1>
+                <p class="fs-20 fw-600 mb-5">Create and send professional invoices in an instant and get paid
+                    faster. Our simple, easy-to-use online invoicing feature is the perfect way to improve your cash
+                    flow.</p>
+                <a href="#" class="btn__success px-5 py-2">Explore plans & pricing</a>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white pt-5">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4 mb-5">
+                    <img src="./assets/images/invoices/invoice.png" alt="invoice" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4 mb-5">
+                    <h1 class="secondary__heading mb-3 mb-md-4">create professional invoices</h1>
+                    <p class="fs-15 fw-500 mb-0">Create simple yet professional, customised invoices on any device -
+                        automatically for recurring invoices. QuickBooks tells you when your invoices have been opened
+                        and reminds you when they're due. It all adds up to getting paid faster.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light py-5">
+        <div class="container-fluid pt-5">
+            <div class="row">
+                <div class="col-12 mb-5 text-center">
+                    <h1 class="secondary__heading mb-0">Reasons to choose our invoicing software</h1>
+                </div>
+                <div class="col-12 col-md-3 mb-5">
+                    <div class="text-start">
+                        <div class="icon__box__payroll">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <h5 class="fs-16 fw-600 mb-1">Convert estimates to professional-looking invoices</h5>
+                        <p class="mb-0 fs-14">Software to generate invoices fast. Quickly create professional invoices
+                            from your original estimates and send them from any device.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-5">
+                    <div class="text-start">
+                        <div class="icon__box__payroll">
+                            <i class="fa-solid fa-comments-dollar"></i>
+                        </div>
+                        <h5 class="fs-16 fw-600 mb-1">Make billing flexible</h5>
+                        <p class="mb-0 fs-14">Use our simple invoicing app to apply discounts for promotions, charge
+                            late fees, and perform tax calculations for VAT liability and Income Tax.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-5">
+                    <div class="text-start">
+                        <div class="icon__box__payroll">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <h5 class="fs-16 fw-600 mb-1">Invoice in major currencies</h5>
+                        <p class="mb-0 fs-14">Invoice in multiple currencies as QuickBooks automatically adjusts for
+                            exchange rate changes. Simplify doing business internationally from the UK.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-5">
+                    <div class="text-start">
+                        <div class="icon__box__payroll">
+                            <i class="fa-solid fa-stopwatch"></i>
+                        </div>
+                        <h5 class="fs-16 fw-600 mb-1">Spend less time chasing payments</h5>
+                        <p class="mb-0 fs-14">Our easy-to-use online invoicing software is the perfect way to spend less
+                            time chasing payments for your small business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white py-5">
+        <div class="container-fluid pt-5">
+            <div class="col-md-6 mb-5 mx-auto text-center">
+                <h3 class="mb-2 text-black fw-600 blog_title">Send great-looking invoices in minutes</h3>
+                <p class="mb-0 fs-16 text-dark fw-500">Create your own custom invoices using the theme designer or
+                    choose from a gallery of customisable templates. Include all the legal requirements and details so
+                    your invoices fit the bill.</p>
+            </div>
+            <div class="mb-5 row justify-content-center">
+                <div class="col-12 col-md-4 col-lg-3 text-center">
+                    <img src="./assets/images/invoices/icon1.png" alt="Estimates" class="invoices_icons">
+                    <h5 class="fs-16 fw-600 text-black">Create a custom invoice or choose from a gallery of templates
+                    </h5>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 text-center">
+                    <img src="./assets/images/invoices/icon2.png" alt="Tracking" class="invoices_icons">
+                    <h5 class="fs-16 fw-600 text-black">Add a one-click payment option</h5>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 text-center">
+                    <img src="./assets/images/invoices/icon3.png" alt="Payroll" class="invoices_icons">
+                    <h5 class="fs-16 fw-600 text-black">Send or share it with your customer</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light py-5">
+        <div class="container-fluid pt-5">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4 mb-5">
+                    <h4 class="blog_title fw-bold mb-3 text-black">Invoicing on the go</h4>
+                    <p class="mb-3 fs-14 text-dark fw-600">Life is all go, go, go when you're a business owner. With the
+                        FreeAgent mobile app you can stay
+                        on top of your business admin from anywhere, anytime - including creating, sending and managing
+                        your invoices.</p>
+                    <p class="mb-0 fs-14 text-dark fw-600">As FreeAgent is cloud-based, your accounts will sync in real
+                        time across all your devices.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4 mb-5">
+                    <img src="./assets/images/invoices/invoicing.png" alt="invoicing" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white py-5">
+        <div class="container-fluid">
+            <div class="mb-5 text-center">
+                <h1 class="fs-32 text-black fw-bold blog_title">The bottom line about invoices:</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                    <ul class="m-0 p-0">
+                        <li class="fs-14 fw-500 text-black mb-2">Create your own professional invoices using the theme designer, or choose from a gallery of
+                            templates</li>
+                        <li class="fs-14 fw-500 text-black mb-2">Skip the hassle with online invoices that automatically fill in the details that HMRC
+                            requires
+                        </li>
+                        <li class="fs-14 fw-500 text-black mb-2">Take payments online with Tyl, Stripe, GoCardless. and PayPal, saving time for you and your
+                            customers</li>
+                        <li class="fs-14 fw-500 text-black mb-2">Connect FreeAgent with Stripe or PayPal to take international payments</li>
+                        <li class="fs-14 fw-500 text-black mb-2">See what's been paid, what's due and what's overdue with your Invoice Timeline</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                    <ul class="m-0 p-0">
+                        <li class="fs-14 fw-500 text-black mb-2">Send and track invoices on the go with the FreeAgent mobile app</li>
+                        <li class="fs-14 fw-500 text-black mb-2">Create and customise automated late payment reminders and thank you emails</li>
+                        <li class="fs-14 fw-500 text-black mb-2">Set up automatically recurring invoices that send themselves</li>
+                        <li class="fs-14 fw-500 text-black mb-2">Include out-of-pocket expenses from projects on your invoices</li>
+                        <li class="fs-14 fw-500 text-black mb-2">Set up a price list of commonly sold items to build your future invoices more quickly</li>
+                        <li class="fs-14 fw-500 text-black mb-2">Invoice your clients in a variety of currencies and languages</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg__primary py-4">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-center gap__20 flex-wrap">
+                <h4 class="section__heading text-center mb-0 text-white">LIMITED TIME OFFER GET 75% off for 6 months or
+                    a year</h4>
+                <button class="btn__success">Try for free</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg-white pt-5">
+        <div class="container-fluid">
+            <div class="row border-bottom">
+                <div class="col-6 col-md-4 col-xl-2 mb-5">
+                    <a href="#" class="d-inline-block">
+                        <img src="./assets/images/logo.png" alt="Logo" class="rounded-circle img-fluid">
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 mb-5">
+                    <h6 class="group__heading">COMPANY</h6>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer-items">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Our Story</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Diversity & Inclusivity</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Press Center</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 mb-5">
+                    <h6 class="group__heading">FEATURES</h6>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer-items">All FreshBooks Features</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">App Store</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Expenses & Receipts</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Estimates</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Invoicing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Mobile</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Payments</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Reports</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Time Tracking</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 mb-5">
+                    <h6 class="group__heading">WHO IT'S FOR</h6>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer-items">For Freelancers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Businesses With Contractors</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Businesses With Employees</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Self-Employed Professionals</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">High Volume Billing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Marketing & Agencies</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Creatives</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 mb-5">
+                    <h6 class="group__heading">PARTNERS</h6>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer-items">Partners</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Developers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Education</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Referral Program</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Affiliate Program</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Apps</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2 mb-5">
+                    <h6 class="group__heading">HELPFUL LINKS</h6>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer-items">Accounting Software</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Accounting Templates</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Login</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Resource Hub</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Sign Up</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Support</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Tools</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Invoice Template</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">Quickbooks Alternative</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-items">FreshBooks Vs Xero</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center pt-3">
+                <div class="col-12 col-md-auto mb-3 text-center text-md-start">
+                    <p class="mb-0 fs-14 fw-500">© 2000-2024 FreshBooks</p>
+                </div>
+                <div class="col-12 col-md-auto mb-3 text-center">
+                    <a href="#" class="d-inline-block">
+                        <img src="./assets/images/play__Store.png" alt="playstore" class="img-fluid app__download__img">
+                    </a>
+                    <a href="#" class="d-inline-block">
+                        <img src="./assets/images/app_store.png" alt="appstore" class="img-fluid app__download__img">
+                    </a>
+                </div>
+                <div class="col-12 col-md-auto mb-3">
+                    <div class="social__icons justify-content-center justify-content-md-end">
+                        <a href="#" class="twitter icon">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="#" class="facebook icon">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="youtube icon">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="#" class="instagram icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jquery js -->
+    <script src="./assets/vendor/jquery/js/jquery-3.6.4.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
