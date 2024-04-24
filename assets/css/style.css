@@ -180,7 +180,8 @@ h6,
     gap: 30px;
 }
 
-.estiamtes__time__tracking__payroll__projects img, .invoices_icons {
+.estiamtes__time__tracking__payroll__projects img,
+.invoices_icons {
     margin-bottom: 12px;
     width: 50px;
     height: auto;
@@ -291,6 +292,11 @@ h6,
     background-color: var(--sky-color);
 }
 
+.app_icons {
+    width: 50px;
+    height: auto;
+}
+
 .gap__12 {
     gap: 12px;
 }
@@ -324,6 +330,34 @@ h6,
 
 .dropdown-menu li:not(:last-child) {
     border-bottom: 1px solid #0000002d;
+}
+
+.mega__menu {
+    position: static;
+}
+
+.mega__menu .mega__menu__listing li {
+    border: none;
+}
+
+.mega__menu .mega__menu__listing li a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.mega__menu .mega__menu__listing li a .icons {
+    font-size: 20px;
+}
+
+.mega__menu .dropdown-menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
 }
 
 /* header navbar */
@@ -425,6 +459,11 @@ a {
     left: 40px;
     right: 40px;
     z-index: -1;
+}
+
+.playstore {
+    width: 120px;
+    height: auto;
 }
 
 .tab__count {
