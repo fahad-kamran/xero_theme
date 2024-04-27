@@ -12,6 +12,7 @@
     --black-color: #000;
     --light-color: #f0f7fd;
     --light-light-color: #f5f6f7;
+    --mega-menu-color: #767878;
     --sky-color: #c4eaff;
     --heading--color: #1f3c70;
     /* **********COLORS********** */
@@ -96,6 +97,14 @@ h6,
     color: var(--white-color);
 }
 
+.btn-sm {
+    font-size: 13px;
+}
+
+.line__height__1-5rem {
+    line-height: 1.5rem;
+}
+
 .fs-10 {
     font-size: 10px;
 }
@@ -158,6 +167,10 @@ h6,
 
 .fs-36 {
     font-size: 36px !important;
+}
+
+.fs-50 {
+    font-size: 50px;
 }
 
 .fw-500 {
@@ -306,6 +319,10 @@ h6,
 }
 
 /* header navbar */
+header.header {
+    z-index: 1056;
+}
+
 .header__logo {
     max-width: 60px;
     height: auto;
@@ -334,6 +351,17 @@ h6,
 
 .mega__menu {
     position: static;
+}
+
+.mega__menu__color {
+    color: var(--mega-menu-color);
+}
+
+.mega__menu__dialog {
+    max-width: 1200px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    top: 90px;
 }
 
 .mega__menu .mega__menu__listing li {
@@ -524,6 +552,71 @@ a {
 /* accordion faq */
 
 /* premium cards */
+.premium__switch {
+    position: relative;
+    display: inline-block;
+    width: 160px;
+    height: 32px;
+}
+
+.premium__switch::before {
+    content: "Monthly";
+    z-index: 999;
+    position: relative;
+    font-size: 13px;
+    font-weight: 500;
+    left: -16px;
+    top: 2px;
+}
+
+.premium__switch::after {
+    content: "Annual";
+    z-index: 999;
+    position: relative;
+    font-size: 13px;
+    font-weight: 500;
+    right: -16px;
+    top: 2px;
+}
+
+.premium__switch input {
+    display: none;
+}
+
+.premium__switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e1e7e0;
+    border-radius: 1.5rem;
+    transition: .4s;
+}
+
+.premium__switch .slider:before {
+    position: absolute;
+    content: "Monthly";
+    height: 26px;
+    width: 77px;
+    left: 3px;
+    top: 3px;
+    background-color: var(--success-color);
+    color: var(--white-color);
+    border-radius: 1.5rem;
+    transition: .4s;
+    z-index: 9999;
+    font-size: 13px;
+    padding-top: 3px;
+    font-weight: 500;
+}
+
+.premium__switch input:checked+.slider:before {
+    transform: translateX(77px);
+    content: "Annual";
+}
+
 .premium__cards {
     text-align: center;
     color: var(--heading--color);
@@ -638,6 +731,81 @@ a {
 
 /* BLOG DETAIL */
 
+/* knowledge base */
+.knowledge__base .search {
+    position: relative;
+}
+
+.knowledge__base .search .search__icon {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 20px;
+}
+
+.knowledge__base .search input {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 12px 20px 12px 46px;
+}
+
+.browse__help__topics li {
+    margin-bottom: 8px !important;
+}
+
+.browse__help__topics li::marker {
+    color: #626262;
+}
+
+.browse__help__topics a {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* knowledge base */
+
+/* accountants */
+.acountants__img {
+    width: 80px;
+    height: 80px;
+}
+
+.testimonial__card .__line {
+    width: 80px;
+    height: 2px;
+    background-color: var(--primary-color);
+    margin: auto;
+}
+
+.five__boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.five__boxes>div {
+    flex: 100%;
+    text-align: center;
+}
+
+.five__boxes>div .icon {
+    font-size: 32px;
+    color: var(--primary-color);
+    margin-bottom: 12px;
+}
+
+.img-100-x-100 {
+    width: 100px;
+    height: 100px;
+}
+
+/* accountants */
+
 /* footer */
 .list__style__none {
     margin: 0;
@@ -710,9 +878,26 @@ a {
 
 /* footer */
 
+
+@media (min-width:567px) {
+    .five__boxes>div {
+        flex: 0 1 calc(50% - 20px);
+    }
+}
+
+@media (min-width:767px) {
+    .five__boxes>div {
+        flex: 0 1 calc(33.33% - 20px);
+    }
+}
+
 @media (min-width:992px) {
     .estiamtes__time__tracking__payroll__projects {
         gap: 50px;
+    }
+
+    .five__boxes>div {
+        flex: 0 1 calc(20% - 20px);
     }
 
     .navbar-nav {
