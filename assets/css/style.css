@@ -234,8 +234,28 @@ h6,
     border-bottom: 2px solid var(--primary-color);
 }
 
+.primary__underline {
+    border-bottom: 1px solid var(--primary-color);
+}
+
 .heading__color {
     color: var(--heading--color);
+}
+
+.bg__img__manager {
+    background-image: url("../images/quickbooks-for-accountant/quickBooks-practice-manager.png");
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    bottom: -3rem;
+    position: relative;
+    min-height: 220px;
+}
+
+.bg__secondary {
+    background-color: var(--heading--color);
 }
 
 .hero__heading,
