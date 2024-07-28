@@ -1,0 +1,171 @@
+<!-- 
+    *********************
+    Date : 25-Mar-2025
+    Html  v5
+    Css v3
+    Bootstrap  v5.3
+    jQuery v3.7.0
+    Font Awesome Free 6.5.1
+    *********************
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <!-- <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon"> -->
+    <title>AIKBOK :: JOIN</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- global css / custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="bg__sky py-3">
+        <div class="container-fluid d-flex align-items-center gap__20">
+            <img src="./assets/images/logo.png" class="register__logo" alt="Logo">
+            <a href="#" class="text__color fw-600 fs-16">Go back</a>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="col-12 col-md-7 col-lg-6 mx-auto py-5">
+            <h1 class="hero__heading mb-5">Join the AikBok partner programmed</h1>
+            <p class="mb-4 fw-600 fs-16">Join over 50,000 accountants and bookkeepers who use AikBok in their practice.
+            </p>
+
+            <div class="d-flex flex-wrap justify-content-start gap__20 mb-4">
+                <div class="fw-600 fs-14"><span class="text__primary">✔</span> Earn discounts</div>
+                <div class="fw-600 fs-14"><span class="text__primary">✔</span> Dedicated support to get started</div>
+                <div class="fw-600 fs-14"><span class="text__primary">✔</span> Get AikBok certified</div>
+            </div>
+
+            <form action="./verification.html">
+                <div class="form-group mb-3 mb-md-4">
+                    <label class="form-label fs-14 fw-600">Practice name</label>
+                    <input type="text" class="form-control fs-14 fw-600" placeholder="Practice name">
+                </div>
+                <div class="form-group mb-3 mb-md-4">
+                    <label class="form-label fs-14 fw-600">How many clients does your practice work with?</label>
+                    <select class="form-select fs-14 fw-600">
+                        <option selected disabled>Please choose an option</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="form-group mb-3 mb-md-4">
+                    <label class="form-label fs-14 fw-600">Area of expertice</label>
+                    <select class="form-select fs-14 fw-600">
+                        <option selected disabled>Please choose an option</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="form-group mb-3 mb-md-4">
+                    <label class="form-label fs-14 fw-600">About your practice</label>
+                    <textarea class="form-control" rows="5"></textarea>
+                    <p class="mb-0 text-end fs-12 mt-1">100/300 words</p>
+                </div>
+                <div class="form-group mb-3 mb-md-4">
+                    <label class="form-label fs-14 fw-600">Email</label>
+                    <input type="email" class="form-control fs-14 fw-600" placeholder="Email">
+                </div>
+                <div class="form-group mb-3 mb-md-4">
+                    <label class="form-label fs-14 fw-600">Phone number</label>
+                    <input type="text" class="form-control fs-14 fw-600" placeholder="Phone number">
+                </div>
+                <div class="form-group mb-3 mb-md-4">
+                    <label class="form-label fs-14 fw-600">First name</label>
+                    <input type="text" class="form-control fs-14 fw-600" placeholder="First name">
+                </div>
+                <div class="form-group mb-3 mb-md-4">
+                    <label class="form-label fs-14 fw-600">Last name</label>
+                    <input type="text" class="form-control fs-14 fw-600" placeholder="Last name">
+                </div>
+                <div class="form-group mb-3 mb-md-4">
+                    <label class="form-label fs-14 fw-600">Location</label>
+                    <select class="form-select fs-14 fw-600" aria-label="Default select example">
+                        <option selected disabled>Select Location</option>
+                        <option value="1">United Kingdom</option>
+                        <option value="2">United Kingdom</option>
+                        <option value="3">United Kingdom</option>
+                    </select>
+                </div>
+                <div class="form-group mb-3 mb-md-4">
+                    <label class="form-label fs-14 fw-600">State / Province</label>
+                    <select class="form-select fs-14 fw-600">
+                        <option selected disabled>Please choose an option</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <label class="form-label fs-14 fw-600">Company Logo</label>
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-5 mb-3 mb-md-4">
+                            <div class="company-logo-upload p-3">
+                                <input type="file" name="company-logo" id="company-logo">
+                                <div class="d-flex align-items-center gap__12">
+                                    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                                    <div class="fs-14 text-dark">Upload your logo</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7 mb-3 mb-md-4">
+                            <p class="mb-0 fs-12 text-black fw-600">This logo will be displayed in transaction PDFs and
+                                email notifications.</p>
+                            <p class="mb-0 fs-12 text-dark">Preferred Image Dimensions: 240 x 240 pixels @ 72 DPI
+                                Maximum File Size: 1MB</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" value="" id="privacy__policy__check">
+                    <label class="form-check-label fs-14 fw-600" for="privacy__policy__check">
+                        I've read and agreed to the terms of use, privacy notice and offer details:
+                    </label>
+                </div>
+                <div class="mb-3 mb-md-4">
+                    <span class="fs-14 fw-600 ps-4">
+                        <a class="text-decoration-underline" href="#">Terms of use, privacy notice</a>, and
+                        <a class="text-decoration-underline" href="#">offer details</a>
+                    </span>
+                </div>
+                <div class="form-check mb-3 mb-md-4">
+                    <input class="form-check-input" type="checkbox" value="" id="discounts__check">
+                    <label class="form-check-label fs-14 fw-600" for="discounts__check">
+                        Be the first to hear about discounts, industry news, invitations to AikBok events, and other
+                        valueable updates from AikBok.
+                    </label>
+                </div>
+                <button class="btn__primary mb-3 mb-md-4" type="submit">Register Now</button>
+            </form>
+
+            <p class="mb-3 mb-md-4 fs-14 fw-500">© 2024 AikBok. All rights reserved. "AikBok" and "Smart Books, Smart
+                Business" are trademarks of AikBok.</p>
+
+            <a class="fs-14 fw-500 text-decoration-underline me-4" href="#">Legal</a>
+            <a class="fs-14 fw-500 text-decoration-underline" href="#">Privacy notice</a>
+        </div>
+    </div>
+
+    <!-- jquery js -->
+    <script src="./assets/vendor/jquery/js/jquery-3.6.4.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
